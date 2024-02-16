@@ -24,10 +24,10 @@ export function Navbar(){
                     {navLinks.map((item,index) => (
                         <li className="font-medium text-[#ffffff] decoration-0 list-none" key={index}>{item.name}</li>
                     ))}
-                    <div className="bg-[ABE03C] flex font-medium  text-[#ffffff] bg-[#ABE03C] h-[60px] w-[228px] items-center justify-center rounded-lg text-[#102356]" >
-                        <p>Contact us</p>
+                    <button className="bg-[ABE03C] flex font-medium  bg-[#ABE03C] h-[60px] w-[228px] items-center justify-center rounded-lg text-[#102356]" >
+                        Contact us
                         <Image src={rightArrow} className="ml-2" alt="rightArrow"/>
-                    </div>
+                    </button>
                 </div>
                 <Image src={Btn} alt="Menubtn" className="lg:hidden"/>
             </div>
