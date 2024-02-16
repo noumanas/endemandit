@@ -22,7 +22,7 @@ export function Navbar(){
             <div>
                 <div className="hidden lg:flex pl-[74px] gap-x-[56px] items-center justify-center">
                     {navLinks.map((item,index) => (
-                        <p className="font-medium text-[#ffffff]" key={index}>{item.name}</p>
+                        <li className="font-medium text-[#ffffff] decoration-0 list-none" key={index}>{item.name}</li>
                     ))}
                     <div className="bg-[ABE03C] flex font-medium  text-[#ffffff] bg-[#ABE03C] h-[60px] w-[228px] items-center justify-center rounded-lg text-[#102356]" >
                         <p>Contact us</p>
