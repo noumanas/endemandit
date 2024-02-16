@@ -9,7 +9,7 @@ export function Harness(){
             <div className="px-[20px] items-center flex flex-col lg:flex-row  justify-center">
                 <div className="text-center lg:text-left items-center flex flex-col justify-center lg:items-start ">
                     <h1 className="font-extrabold text-[36px] font-Inter text-[#102356] lg:text-[72px]">Harness Your Unique Potential</h1>
-                    <p className="text-[#102356] font-regular text-[18px] leading-[30px]">Our strength lies in crafting bespoke transformation solutions tailored to your organization's distinct needs, ensuring a seamless and effective journey towards digital excellence.</p>
+                    <p className="text-[#102356] font-regular text-[18px] leading-[30px]">Our strength lies in crafting bespoke transformation solutions tailored to your organization&apos;s distinct needs, ensuring a seamless and effective journey towards digital excellence.</p>
                     <button className="mt-10 bg-[#102356] flex font-medium h-[60px] w-[228px] items-center justify-center rounded-lg text-[#FFFFFF]" >
                             Get Started
                             <Image src={rightArrowWhite} className="ml-2" height={14} width={14} alt="rightArrow"/>
