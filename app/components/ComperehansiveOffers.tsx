@@ -23,7 +23,7 @@ export function ComperehansiveOffers(){
             </div>
             <div className="flex gap-[20px] pt-9 flex-col lg:flex-row px-8">
             {data.map((item,index) => (
-                       <div className="group lg:h-[343px] lg:w-[558px] rounded-lg shadow-2xl hover:bg-[#102356] hover:border-2 hover:border-[#ABE03C]">
+                       <div key={index} className="group lg:h-[343px] lg:w-[558px] rounded-lg shadow-2xl hover:bg-[#102356] hover:border-2 hover:border-[#ABE03C]">
                             <p className="px-10 py-10 font-bold text-[30px] text-[#102356] group-hover:text-white ">
                                 {item.title}
                             </p>
