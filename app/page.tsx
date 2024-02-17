@@ -4,7 +4,7 @@ import { RapidDigtal } from "./components/RapidDigital";
 import { Harness } from "./components/Harness";
 import { Navigate } from "./components/Navigate";
 import { Augment } from "./components/Augment";
-
+import { ComperehansiveOffers } from "./components/ComperehansiveOffers";
 export default function Home() {
   return (
     <>
@@ -20,7 +20,15 @@ export default function Home() {
         <div className={`bg-[url(../public/assets/backgroundAugment.png)]`}>
           <Augment />
         </div>
+      <div className={`bg-[url(../public/assets/backgroundAugment.png)]`}>
+        <Augment/>
       </div>
+      <div>
+        <ComperehansiveOffers/>
+      </div>
+    </div>
+   
+      
     </>
   );
 }
