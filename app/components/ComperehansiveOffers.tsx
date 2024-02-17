@@ -14,16 +14,16 @@ const data =[
 export function ComperehansiveOffers(){
     return(
         <div className="pt-9 lg:px-40">
-            <div className="px-[20px] items-center flex flex-col lg:flex-row  justify-center">
+            <div className="px-[20px] items-center flex flex-col lg:flex-row  justify-center lg:justify-start">
                 <div className="text-center lg:text-left items-center flex flex-col justify-center lg:items-start ">
                     <h1 className="font-extrabold text-[36px] font-Inter text-[#102356] lg:text-[62px]">Unlock Our <br/> Comprehensive Offerings</h1>
                     <p className="text-[#102356] font-regular text-[12px] leading-[30px]">We leave no angle uncovered, no stone unturned to accelerate and enhance your transformation journey. </p>
                 </div>
                
             </div>
-            <div className="flex gap-[20px] pt-9 flex-col lg:flex-row px-8">
+            <div className="flex gap-[40px] pt-9 flex-col lg:flex-row px-8">
             {data.map((item,index) => (
-                       <div key={index} className="group lg:h-[343px] lg:w-[558px] rounded-lg shadow-2xl hover:bg-[#102356] hover:border-2 hover:border-[#ABE03C]">
+                       <div key={index} className="group lg:h-[400px] lg:w-[558px] rounded-lg shadow-xl hover:bg-[#102356] hover:border-4 hover:border-[#ABE03C]">
                             <p className="px-10 py-10 font-bold text-[30px] text-[#102356] group-hover:text-white ">
                                 {item.title}
                             </p>

@@ -5,6 +5,7 @@ import { Harness } from "./components/Harness";
 import { Navigate } from "./components/Navigate";
 import { Augment } from "./components/Augment";
 import { ComperehansiveOffers } from "./components/ComperehansiveOffers";
+import { Industries } from "./components/Industries";
 export default function Home() {
   return (
     <>
@@ -20,11 +21,11 @@ export default function Home() {
         <div className={`bg-[url(../public/assets/backgroundAugment.png)]`}>
           <Augment />
         </div>
-      <div className={`bg-[url(../public/assets/backgroundAugment.png)]`}>
-        <Augment/>
-      </div>
       <div>
         <ComperehansiveOffers/>
+      </div>
+      <div>
+        <Industries/>
       </div>
     </div>
    
