@@ -32,7 +32,7 @@ export default function Home() {
       <div  className={`bg-[url(../public/assets/innovatewithconfidencebackground.png)] mt-20`}>
         <InnovatewithConfidence/>
       </div>
-      <div>
+      <div className="pb-40">
         <GlobalReach/>
       </div>
     </div>

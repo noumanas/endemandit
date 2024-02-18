@@ -2,10 +2,11 @@ import React from "react";
 import Image from "next/image";
 import Logo from "../../public/assets/Logo.png";
 import rightArrow from "../../public/assets/rightArrow.png";
+import footerbackground from "../../public/assets/footerbackground.png"
 
 const Footer = () => {
   return (
-    <footer className="bg-blue-900 sm:pt-20 md:pt-56 lg:pt-56 xl:pt-56 2xl:pt-56 text-white">
+    <footer className={`lg:bg-[url(../public/assets/footerbackground.png)] bg-[#102356] sm:pt-20 md:pt-56 lg:pt-56 xl:pt-56 2xl:pt-56 text-white`}>
       <div className="container mx-auto px-4 py-8 text-center items-center ">
         <div className="flex items-center flex-col sm:w-full md:w-full lg:w-full xl:w-full 2xl:w-full pb-36	">
           <p className="text-3xl font-sans font-extrabold sm:text-4xl lg:text-5xl ">
