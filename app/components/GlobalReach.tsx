@@ -47,7 +47,7 @@ export function GlobalReach(){
 
                <h1 className="font-extrabold text-[36px] font-Inter text-[#102356] lg:text-[62px] text-center">& Pain Points</h1>
 
-                <p className="font-bold text-[#4A4A4A] text-[22px] text-center">Through meticulous research, we've identified key pain points in the industry, and our solutions are tailored to alleviate these challenges.</p>
+                <p className="font-bold text-[#4A4A4A] text-[22px] text-center">Through meticulous research, we&apos;ve identified key pain points in the industry, and our solutions are tailored to alleviate these challenges.</p>
                 
                 <div className="flex flex-col gap-16 pt-10 lg:flex-row">
                     <div className="h-[500px] w-[316px]">
