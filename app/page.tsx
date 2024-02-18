@@ -6,6 +6,8 @@ import { Navigate } from "./components/Navigate";
 import { Augment } from "./components/Augment";
 import { ComperehansiveOffers } from "./components/ComperehansiveOffers";
 import { Industries } from "./components/Industries";
+import { InnovatewithConfidence } from "./components/InnovatewithConfidence";
+import { GlobalReach } from "./components/GlobalReach";
 export default function Home() {
   return (
     <>
@@ -26,6 +28,12 @@ export default function Home() {
       </div>
       <div>
         <Industries/>
+      </div>
+      <div  className={`bg-[url(../public/assets/innovatewithconfidencebackground.png)] mt-20`}>
+        <InnovatewithConfidence/>
+      </div>
+      <div>
+        <GlobalReach/>
       </div>
     </div>
    

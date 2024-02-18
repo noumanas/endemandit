@@ -1,6 +1,8 @@
 import rightArrow from "../../public/assets/rightArrow.png";
 import Image from "next/image"
 import Workforce from "../../public/assets/Workforce.png"
+import strokeline from "../../public/assets/strokeline.png"
+
 const data =[
     {title:'Consulting',discription :'Empower your decisions with our Consulting services. Gain strategic insights tailored to your unique challenges, ensuring you are equipped to make informed choices that lead to lasting success.'},
     {title:'Implementation', discription:"Revolutionize your operations with Implementation services that seamlessly integrate cutting-edge technologies into your existing setup. Transform your systems effortlessly for a future-ready infrastructure."},
@@ -16,7 +18,10 @@ export function ComperehansiveOffers(){
         <div className="pt-9 lg:px-40">
             <div className="px-[20px] items-center flex flex-col lg:flex-row  justify-center lg:justify-start">
                 <div className="text-center lg:text-left items-center flex flex-col justify-center lg:items-start ">
-                    <h1 className="font-extrabold text-[36px] font-Inter text-[#102356] lg:text-[62px]">Unlock Our <br/> Comprehensive Offerings</h1>
+                    <h1 className="font-extrabold text-[36px] font-Inter text-[#102356] lg:text-[62px]">Unlock Our </h1>
+                    <Image className="relative" src={strokeline} width={250} alt="line"/>
+                    <h1 className="font-extrabold text-[36px] font-Inter text-[#102356] lg:text-[62px]">Comprehensive Offerings</h1>
+
                     <p className="text-[#102356] font-regular text-[12px] leading-[30px]">We leave no angle uncovered, no stone unturned to accelerate and enhance your transformation journey. </p>
                 </div>
                

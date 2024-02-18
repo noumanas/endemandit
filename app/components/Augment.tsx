@@ -1,13 +1,17 @@
 import rightArrow from "../../public/assets/rightArrow.png";
 import Image from "next/image"
 import Workforce from "../../public/assets/Workforce.png"
+import strokeline from "../../public/assets/strokeline.png"
 
 export function Augment(){
     return(
         <div className="pt-9 lg:px-40">
             <div className="px-[20px] items-center flex flex-col lg:flex-row  justify-center">
                 <div className="text-center lg:text-left items-center flex flex-col justify-center lg:items-start ">
-                    <h1 className="font-extrabold text-[36px] font-Inter text-[#FFFFFF] lg:text-[62px]">Augment Your Workforce</h1>
+                    <h1 className="font-extrabold text-[36px] font-Inter text-[#FFFFFF] lg:text-[62px]">Augment Your</h1>
+                    <Image className="relative" src={strokeline} width={250} alt="line"/>
+                    <h1 className="font-extrabold text-[36px] font-Inter text-[#FFFFFF] lg:text-[62px]">Workforce</h1>
+
                     <p className="font-bold text-[26px] text-[#ffffff]">Unleash People-Powered Transformation</p>
                     <p className="text-[#FFFFFF] font-regular text-[12px] leading-[30px]">While solutions are essential, our primary focus is on empowering your workforce with the right talent. We deploy skilled Digital Transformation resources, on-site and remotely, at lightning speed. </p>
                     <p className="font-bold text-[#ffffff] text-[12px] mt-[1px]">

@@ -2,6 +2,7 @@ import rightArrowWhite from "../../public/assets/rightArrowWhite.png";
 import Image from "next/image"
 import navigate from "../../public/assets/navigate.png"
 import Imagecontainer2 from "../../public/assets/Imagecontainer2.png"
+import strokeline from "../../public/assets/strokeline.png"
 
 export function Navigate(){
     return(
@@ -13,7 +14,10 @@ export function Navigate(){
                 <Image src={navigate} alt="container" height={1000} width={1400} className="lg:block mb-40 mt-20"/>
 
                 <div className="text-center lg:text-left items-center flex flex-col justify-center lg:items-start lg:ml-20">
-                    <h1 className="font-extrabold text-[36px] font-Inter text-[#102356] lg:text-[62px]">Navigate Flawlessly</h1>
+                    <h1 className="font-extrabold text-[36px] font-Inter text-[#102356] lg:text-[62px]">Navigate</h1>
+                    <Image className="relative" src={strokeline} width={250} alt="line"/>
+                    <h1 className="font-extrabold text-[36px] font-Inter text-[#102356] lg:text-[62px]">Flawlessly</h1>
+
                     <p className="text-[#102356] font-regular text-[12px] leading-[30px]">Benefit from our global reach and local expertise, seamlessly integrating international best practices with in-depth understanding of regional nuances 
 to drive your business forward.</p>
                 </div>
