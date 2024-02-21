@@ -13,7 +13,7 @@ const Footer = () => {
             Join Us on the Digital Transformation Odyssey
           </p>
 
-          <p className="mt-4 sm:text-lg	 lg:text-2xl font-light">
+          <p className="mt-4 text-lg">
             EnDemand IT is not just a service provider; we are your partners in
             fast-track digital transformation. Explore the possibilities,
             elevate your IT capabilities, and embrace the future with
@@ -32,8 +32,8 @@ const Footer = () => {
           </button>
         </div>
 
-        <div className="py-10 md:grid md:grid-cols-3 lg:grid-cols-5 gap-8">
-          <div className="mb-4">
+        <div className="grid md:grid-cols-3 lg:grid-cols-5 gap-5 ">
+          <div className="mb-4 pt-20 text-center">
             <Image
               src={Logo}
               height={37}
@@ -42,13 +42,13 @@ const Footer = () => {
               className="h-9 w-[219px] mx-auto md:mx-0"
             />
 
-            <p className="mt-4 text-sm">
+            <p className="mt-4 text-lg text-center px-12	">
               Here you can use rows and columns to organize your footer content.
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
             </p>
           </div>
 
-          <div>
+          <div className="pt-20 text-center">
             <h6 className="text-lg font-semibold uppercase">Services</h6>
             <nav className="mt-4 space-y-4">
               <a href="#!" className="text-neutral-200 hover:text-neutral-400">
@@ -75,7 +75,7 @@ const Footer = () => {
             </nav>
           </div>
 
-          <div>
+          <div className="pt-20 text-center">
             <h6 className="text-lg font-semibold uppercase">Industries</h6>
             <nav className="mt-4 space-y-4">
               <a href="#!" className="text-neutral-200 hover:text-neutral-400">
@@ -108,7 +108,7 @@ const Footer = () => {
             </nav>
           </div>
 
-          <div>
+          <div className="pt-20 text-center">
             <h6 className="text-lg font-semibold uppercase">Company</h6>
             <nav className="mt-4 space-y-4">
               <a href="#!" className="text-neutral-200 hover:text-neutral-400">
@@ -141,13 +141,13 @@ const Footer = () => {
             </nav>
           </div>
 
-          <div>
+          <div className="flex flex-col pt-20 text-center items-center">
             <h6 className="text-lg font-semibold uppercase">Need Help?</h6>
-            <p className="mt-4 text-sm">
+            <p className="mt-4 text-sm text-center ">
               Weren’t able to find something specific? Send us an email to know
               more.
             </p>
-            <button className="mt-10 bg-[#ABE03C] flex font-medium h-[60px] w-[167px] items-center justify-center rounded-lg text-[#102356]">
+            <button className="mt-10 bg-[#ABE03C] flex font-medium h-[60px] w-[167px] items-center justify-center rounded-lg text-[#102356] items-center">
               Email Us
               <Image
                 src={rightArrow}
