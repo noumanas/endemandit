@@ -1,6 +1,6 @@
 import React from "react";
 import SendusMsgImg from "../../public/assets/sendusMsgImg.png";
-import BlueBackground from "../../public/assets/BluePlusBackground.png";
+import footerbackground from "../../public/assets/footerbackground.png";
 import Image from "next/image";
 import rightArrow from "../../public/assets/rightArrow.png";
 
@@ -13,9 +13,9 @@ const SendUsaMessage = () => {
       className="flex justify-center items-center w-full h-screen bg-cover "
     >
       <div
-        class="flex justify-center items-start flex-col 2xl:flex-row xl:flex-row lg:flex-row md:flex-row sm:flex-col rounded-2xl border-[8px] border-solid border-[#ABE03C] px-16 py-16 bg-cover"
+        class="flex justify-center items-start flex-col 2xl:flex-row xl:flex-row lg:flex-row md:flex-row sm:flex-col rounded-2xl border-[8px] border-solid border-[#ABE03C] px-16 py-16 bg-cover bg-no-repeat bg-center bg-[#102356]"
         style={{
-          backgroundImage: `linear-gradient(270deg, rgba(16,35,86,0) 50%, rgba(16,35,86,1) 100%), url(${BlueBackground.src})`,
+          backgroundImage: `url(${footerbackground.src})`,
         }}
       >
         <div className="pr-16">
