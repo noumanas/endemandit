@@ -13,7 +13,7 @@ export function ShapingTomorrow(){
                     <h1 className="font-extrabold text-[36px] font-Inter text-[#ffffff] lg:text-[72px]">EnDemand IT’s Expertise</h1>
                     <Image className="relative" src={strokeline} width={250} alt="line"/>
                     <p className="text-[#fff] font-bold text-[36px] leading-[36px] py-10">Crafting Digital Excellence Across Borders</p>
-                    <p className="text-[#fff] font-regular text-[18px] leading-[30px]">In the heart of the Middle East's rapidlyevolving digital landscape, EnDemand IT stands as a beacon of innovation andexcellence. Founded on the principles of technological advancement andcustomer-centric solutions, our mission is to empower businesses across SaudiArabia, UAE, and Qatar with cutting-edge digital transformation and effectiveresource augmentation.</p>
+                    <p className="text-[#fff] font-regular text-[18px] leading-[30px]">In the heart of the Middle East&apos;s rapidlyevolving digital landscape, EnDemand IT stands as a beacon of innovation andexcellence. Founded on the principles of technological advancement andcustomer-centric solutions, our mission is to empower businesses across SaudiArabia, UAE, and Qatar with cutting-edge digital transformation and effectiveresource augmentation.</p>
                     <button className="mt-10 bg-[ABE03C] flex font-medium bg-[#ABE03C] h-[60px] w-[228px] items-center justify-center rounded-lg text-[#102356]" >
                             Explore our services
                             <Image src={rightArrow} className="ml-2" alt="rightArrow"/>
