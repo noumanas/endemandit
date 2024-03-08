@@ -5,7 +5,7 @@ import SendUsaMessage from "../../components/SendUsaMessage";
 const page = () => {
   return (
     <div>
-      <WeAreHereToHelp />
+      <WeAreHereToHelp /> 
       <OurLocation />
       <SendUsaMessage />
     </div>
