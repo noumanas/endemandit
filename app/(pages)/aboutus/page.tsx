@@ -4,6 +4,15 @@ import { GlobalReach } from "@/app/components/GlobalReach";
 import {AboutContentOne} from "@/app/components/AboutContentOne"
 import { Shaping } from "@/app/components/Shaping";
 const page = () => {
+  return (
+    <div>
+      <div
+        className={`bg-[url(../public/assets/RectangleBackground.png)] bg-[#0f2152] py-10`}
+      >
+        <ShapingTomorrow />
+      </div>
+      <GlobalReach />
+    </div>
   return <div>
     <div className={`bg-[url(../public/assets/RectangleBackground.png)] bg-[#0f2152] py-10`}>
     <ShapingTomorrow/>
