@@ -11,6 +11,7 @@ const navLinks = [
   { name: "Industries", href: "/industries" },
   { name: "About", href: "/aboutus" },
   { name: "Careers", href: "/careers" },
+  { name: "Resource Augmentation", href: "/resourceAugmentation" },
 ];
 export function Navbar() {
   return (
