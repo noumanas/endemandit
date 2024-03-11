@@ -23,21 +23,21 @@ export default function Home() {
         <div className={`bg-[url(../public/assets/backgroundAugment.png)]`}>
           <Augment />
         </div>
-      <div>
-        <ComperehansiveOffers/>
+        <div>
+          <ComperehansiveOffers />
+        </div>
+        <div>
+          <Industries />
+        </div>
+        <div
+          className={`bg-[url(../public/assets/innovatewithconfidencebackground.png)] mt-20`}
+        >
+          <InnovatewithConfidence />
+        </div>
+        <div className="pb-40">
+          <GlobalReach />
+        </div>
       </div>
-      <div>
-        <Industries/>
-      </div>
-      <div  className={`bg-[url(../public/assets/innovatewithconfidencebackground.png)] mt-20`}>
-        <InnovatewithConfidence/>
-      </div>
-      <div className="pb-40">
-        <GlobalReach/>
-      </div>
-    </div>
-   
-      
     </>
   );
 }

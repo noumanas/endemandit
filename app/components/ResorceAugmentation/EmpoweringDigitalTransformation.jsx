@@ -4,7 +4,7 @@ import rightArrow from "../../../public/assets/rightArrow.png";
 
 const WeAreHereToHelp = () => {
   return (
-    <div className="flex flex-col xl:py-40 md:px-20 md:py-20 justify-center w-full">
+    <div className="flex flex-col xl:px-60 md:px-20 md:py-20 justify-center w-full">
       <div className="flex flex-col lg:flex-row justify-between items-center">
         <div className="flex flex-col items-center lg:items-start text-center lg:text-left mb-10 lg:mb-0 lg:w-1/2">
           <h1 className="font-extrabold text-4xl lg:text-7xl text-[#102356] leading-none mb-4">
