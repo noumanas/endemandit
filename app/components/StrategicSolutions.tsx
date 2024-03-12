@@ -35,7 +35,7 @@ const StrategicSolutions = () => {
 Strategist in the Middle East
           </h2> */}
            <p className="text-[#102356] font-regular text-[18px] leading-[30px] mt-6">
-           At EnDemand IT, we recognize that a robust CRM strategy is complemented by exceptional talent. That's why, along with connecting you with the best CRM software, we also specialize in staff augmentation tailored to CRM expertise. Our approach 
+           At EnDemand IT, we recognize that a robust CRM strategy is complemented by exceptional talent. That&apos s why, along with connecting you with the best CRM software, we also specialize in staff augmentation tailored to CRM expertise. Our approach 
 ensures that you not only have access to leading CRM solutions but also the skilled professionals who can 
 drive these platforms to their full potential.
           </p>
